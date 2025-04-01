@@ -11,9 +11,9 @@ import {
   X,
   Plus,
   Moon,
-  Bell,
-  MessageSquare,
-  Briefcase,
+  // Bell,
+  // MessageSquare,
+  // Briefcase,
   ChevronRight
 } from 'lucide-react';
 
@@ -24,9 +24,9 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
+  // navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { cn } from '@/lib/utils';
+// import { cn } from '@/lib/utils';
 import BentoGrid from './components/BentoGrid';
 import Footer from './components/Footer';
 import Features from './pages/Features';
@@ -47,29 +47,23 @@ function HomePage() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-[#181b20] to-[#313485]/20 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -left-40 w-80 h-80 bg-[#f61f83]/20 rounded-full blur-3xl"></div>
-          <div className="absolute top-20 right-20 w-60 h-60 bg-[#365da4]/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 left-1/3 w-70 h-70 bg-[#5f3087]/20 rounded-full blur-3xl"></div>
+         
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="flex justify-center mb-8">
             {/* Large Logo */}
             <div className="h-20 w-20 relative">
-              <div className="absolute inset-0 bg-[#365da4] skew-x-12 transform -translate-x-1"></div>
-              <div className="absolute inset-0 bg-[#87c345] skew-x-12 transform translate-x-1 opacity-80"></div>
-              <div className="absolute right-0 top-0 bottom-0 w-3/4 bg-[#f61f83] rounded-r-full opacity-80"></div>
-              <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-4xl">R</div>
+            <img src="./src/public/images/Reignlogo.png" alt="logo" className='w-50 aspect'/>
             </div>
           </div>
-          <h2 className="text-2xl md:text-3xl font-light mb-4 text-[#87c345]">
-            Welcome to an unbiased world.
+          <h2 className="text-2xl md:text-3xl mb-2 font-light text-white/60 font-[100] uppercase tracking-widest">
+            <span>Welcome to an <span className='font-[500] text-white'>unbiased</span> world.</span>
           </h2>
+          <h3 className='text-2xl md:text-2xl font-light mb-8 tracking-wide font-[100] text-white/60'>Bringing <span className='font-[500] text-white'>high-quality analytics</span> and <span className='font-[500] text-white'>equality</span> to every workplace. Always.</h3>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-[#f61f83] via-[#365da4] to-[#5f3087] text-transparent bg-clip-text">
             REAL-TIME EMPLOYEE INTELLIGENCE GATHERING NETWORK
           </h1>
-          <h3 className="text-xl md:text-2xl font-light mb-8">
-            Bringing high-quality analytics and equality to every workplace. Always.
-          </h3>
+        
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
             <a 
               href="#contact" 
@@ -711,13 +705,13 @@ function App() {
           <div className="flex items-center space-x-2">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-              <div className="h-8 w-8 relative">
-                <div className="absolute inset-0 bg-[#365da4] skew-x-12 transform -translate-x-1"></div>
-                <div className="absolute inset-0 bg-[#87c345] skew-x-12 transform translate-x-1 opacity-80"></div>
-                <div className="absolute right-0 top-0 bottom-0 w-3/4 bg-[#f61f83] rounded-r-full opacity-80"></div>
-                <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-xl">R</div>
+              <div className="h-12 w-12 relative">
+                <img src="./src/public/images/Reignlogo.png" alt="logo" className='w-50 aspect'/>
               </div>
-              <span className="text-xl font-bold">Mindful Measures</span>
+              <span className="text-xl font-extralight uppercase">
+                <span className='tracking-[5px] text-white/40'>Mindful</span> 
+                <span className='block -mt-1 tracking-[2px] text-[#FF1976]'>Measures</span>
+                </span>
             </Link>
           </div>
           
