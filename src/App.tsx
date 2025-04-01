@@ -49,7 +49,7 @@ function HomePage() {
         <div className="absolute inset-0 overflow-hidden">
          
         </div>
-        <div className="container mx-auto px-4 text-center relative z-10">
+        <div className="container mx-auto px-0 text-center relative z-10">
           <div className="flex justify-center mb-8">
             {/* Large Logo */}
             {/* <div className="h-20 w-20 relative">
@@ -59,9 +59,9 @@ function HomePage() {
           <h2 className="text-2xl md:text-3xl mb-2 font-light text-white/60 font-[100] uppercase tracking-widest">
             <span>Welcome to an <span className='font-[500] text-white'>unbiased</span> world.</span>
           </h2>
-          <h3 className='text-2xl md:text-2xl font-light mb-8 tracking-wide font-[100] text-white/60'>Bringing <span className='font-[500] text-white'>high-quality analytics</span> and <span className='font-[500] text-white'>equality</span> to every workplace. Always.</h3>
-          <div className="text-3xl md:text-5xl lg:text-4xl font-bold mb-6 bg-gradient-to-r from-[#f61f83] via-[#365da4] to-[#5f3087] text-transparent bg-clip-text">
-            REAL-TIME EMPLOYEE INTELLIGENCE GATHERING NETWORK
+          <h3 className='text-2xl md:text-2xl font-light mb-4 tracking-wide font-[100] text-white/60'>Bringing <span className='font-[500] text-white'>high-quality analytics</span> and <span className='font-[500] text-white'>equality</span> to every workplace. Always.</h3>
+          <div className="text-3xl md:text-5xl lg:text-4xl font-light mb-6 bg-gradient-to-r from-[#f61f83]/50 via-[#365da4] to-[#5f3087]/50 text-transparent bg-clip-text">
+            <span className='text-[#f61f83] tracking-wide font-[500]'>R</span>EAL-TIME <span className='text-[#f61f83] tracking-wide font-[500]'>E</span>MPLOYEE <span className='text-[#f61f83] tracking-wide font-[500]'>I</span>NTELLIGENCE <span className='text-[#f61f83] tracking-wide font-[500]'>G</span>ATHERING <span className='text-[#f61f83] tracking-wide font-[500]'>N</span>ETWORK
           </div>
         
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
