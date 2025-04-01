@@ -10,4 +10,7 @@ body {
 
 section {
   background-image: url(./public/images/5920.jpg);
+  background-size: cover;
+  background-blend-mode: overlay ;
+  background-position: 0 0;
 }

@@ -45,23 +45,14 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-[#1b2025] text-[#e9eae9]">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-[#181b20] to-[#313485]/20 overflow-hidden">
-        <div className="absolute inset-0 overflow-hidden">
-         
-        </div>
-        <div className="container mx-auto px-0 text-center relative z-10">
-          <div className="flex justify-center mb-8">
-            {/* Large Logo */}
-            {/* <div className="h-20 w-20 relative">
-            <img src="./src/public/images/Reignlogo.png" alt="logo" className='w-50 aspect'/>
-            </div> */}
-          </div>
+      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-[#2B0112]/60 to-[#0E121F]/40 overflow-hidden max-h-[650px] shadow-lg">
+        <div className="container mx-auto px-12 py-14 rounded-lg shadow-xl backdrop-blur-md backdrop-grayscale text-center relative z-10 bg-black/5 w-fit">
           <h2 className="text-2xl md:text-3xl mb-2 font-light text-white/60 font-[100] uppercase tracking-widest">
             <span>Welcome to an <span className='font-[500] text-white'>unbiased</span> world.</span>
           </h2>
-          <h3 className='text-2xl md:text-2xl font-light mb-4 tracking-wide font-[100] text-white/60'>Bringing <span className='font-[500] text-white'>high-quality analytics</span> and <span className='font-[500] text-white'>equality</span> to every workplace. Always.</h3>
-          <div className="text-3xl md:text-5xl lg:text-4xl font-light mb-6 bg-gradient-to-r from-[#f61f83]/50 via-[#365da4] to-[#5f3087]/50 text-transparent bg-clip-text">
-            <span className='text-[#f61f83] tracking-wide font-[500]'>R</span>EAL-TIME <span className='text-[#f61f83] tracking-wide font-[500]'>E</span>MPLOYEE <span className='text-[#f61f83] tracking-wide font-[500]'>I</span>NTELLIGENCE <span className='text-[#f61f83] tracking-wide font-[500]'>G</span>ATHERING <span className='text-[#f61f83] tracking-wide font-[500]'>N</span>ETWORK
+          <h3 className='text-2xl md:text-3xl font-light mb-4 tracking-wide font-[100] text-white/60'>Bringing <span className='font-[500] text-white'>high-quality analytics</span> and <span className='font-[500] text-white'>equality</span> to every workplace. Always.</h3>
+          <div className="text-3xl md:text-5xl tracking-0 lg:text-4xl font-light drop-shadow mb-6 bg-gradient-to-r from-[#f61f83]/50 via-[#365da4] to-[#5f3087]/50 text-transparent bg-clip-text">
+            <span className='text-[#f61f83] text-5xl mr-1 font-[100]'>R</span>EAL-TIME <span className='text-[#5A3874] mr-1 text-5xl font-[100]'>E</span>MPLOYEE <span className='text-[#4967AE]  mr-1 text-5xl font-[100]'>I</span>NTELLIGENCE <span className='text-[#394A75]  mr-1 text-5xl font-[100]'>G</span>ATHERING <span className='text-[#394A75]  mr-1 text-5xl font-[100]'>N</span>ETWORK
           </div>
         
           <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
@@ -82,7 +73,7 @@ function HomePage() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-[#181b20]">
+      <section id="about" className="py-20 bg-[#181b20]  shadow-lg">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">About Mindful Measures Inc.</h2>
