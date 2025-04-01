@@ -24,9 +24,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { cn } from '@/lib/utils';
 import BentoGrid from './components/BentoGrid';
 import Footer from './components/Footer';
 import Features from './pages/Features';
